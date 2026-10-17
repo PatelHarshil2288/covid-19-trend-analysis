@@ -15,14 +15,14 @@ A data science project exploring historical COVID-19 trends with Python, Pandas,
 
 The project uses the instructor-provided file `covid_19_clean_complete.csv`, which is included in this repository. It contains 49,068 rows and 10 columns, covering 187 countries/regions from January 22, 2020, through July 27, 2020.
 
-**Data provenance and reuse:** The file was supplied for this assignment. Before treating it as approved for public redistribution, confirm the original source and applicable license, then add the appropriate attribution here. If the file is from the Johns Hopkins University CSSE COVID-19 Data Repository, follow its stated CC BY 4.0 attribution requirements and cite the original repository: https://github.com/CSSEGISandData/COVID-19. Do not assume that source without verifying that it matches the supplied file.
+**Data provenance and reuse:** The dataset was supplied by the instructor, who confirmed that it may be shared for this project. Where possible, identify and credit the original publisher and its applicable license; do not imply that the dataset was created by this project.
 
 ## Open the notebook
 
 - [View the notebook on GitHub](./COVID_19_Trend_Analysis.ipynb)
 - [Open the notebook in Google Colab](https://colab.research.google.com/github/PatelHarshil2288/covid-19-trend-analysis/blob/main/COVID_19_Trend_Analysis.ipynb)
 
-The notebook expects the CSV at `/content/covid_19_clean_complete.csv` in the Colab runtime. To run it, download the CSV from this repository and upload it to the Colab Files panel at that path, then run the cells from top to bottom.
+The notebook loads the CSV directly from this repository using its raw GitHub URL, so no manual CSV upload is required. Open the notebook in Colab and run the cells from top to bottom with an internet connection.
 
 ## Technologies
 
@@ -60,7 +60,7 @@ The data ends on July 27, 2020, and reflects historical reported counts, which m
 
 ## Reproducibility
 
-Run the notebook cells from top to bottom in Google Colab after making the CSV available at the path shown above. The notebook creates derived tables and a forecast CSV during execution. These are outputs from the single source dataset, not additional source datasets.
+Open the notebook in Google Colab and run the cells from top to bottom. The notebook reads the source CSV from GitHub and creates derived tables and a forecast CSV during execution. These are outputs from the single source dataset, not additional source datasets.
 
 ## Acknowledgment
 
